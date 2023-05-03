@@ -1,40 +1,44 @@
-body {
-  margin: 0;
+header {
+  background-image: url(./imagebanner.jpeg);
+  height: 100%;
+  background-size: 100%;
 }
 
-main {
-  width: 400vh;
-}
-
-p {
-  color: white;
-}
-
-.backLayer{
-  width: 1300px;
-  z-index: -100;
-  position:absolute
-}
-
-.container{
+.navbar {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 1300px;
-  height: 100px;
-  z-index: 100;
-  position: relative;
-  flex-wrap: nowrap;
+  height: 100%;
 }
 
-.logo{
-  width: 200px;
+.nav-line {
+  display:flex;
+  align-items: center;
 }
 
-.play{
+.nav-el-container{
   display: flex;
+  align-items: center;
 }
 
-.oskar{
-  display: flex;
+.nav-el{
+  margin: 16px;
+  opacity: 0.5;
+  color: white;
+}
+
+.nav-el:hover{
+  cursor: auto;
+}
+
+.nav-input {
+  border: none;
+}
+
+.nav-input::placeholder {
+  opacity: 1;
+}
+
+.icon {
+  margin: 5px;
 }
